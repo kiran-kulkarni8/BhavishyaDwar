@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+header{
+    background-color:rgb(198, 212, 241);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(0, 7, 13);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+}
+ul li a:hover{
+    background-color:#fff ;
+    color: black;
+
+
+}
+ul li.active a{
+
+    background-color:#fff ;
+    color: black;
+} 
+.logo img{
+    float: left;
+    width:150px;
+    height: auto;
+}
